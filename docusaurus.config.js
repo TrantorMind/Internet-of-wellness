@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'My Site',
+  title: 'The Internet of Wellness',
   tagline: 'The tagline of my site',
   url: 'https://internet-of-wellness.netlify.com',
   baseUrl: '/',
