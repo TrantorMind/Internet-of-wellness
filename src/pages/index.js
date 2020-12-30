@@ -69,10 +69,10 @@ function Home() {
           params={{
             particles: {
               number: {
-                value: 50,
+                value: 250,
                 density: {
                   enable: true,
-                  value_area: 60,
+                  value_area: 600,
                 },
               },
             },
