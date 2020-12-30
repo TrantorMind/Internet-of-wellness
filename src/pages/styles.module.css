@@ -6,22 +6,37 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
   text-align: center;
-  position: relative;
+  height: 100vh;
+  padding: 0;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-@media screen and (max-width: 966px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+.title {
+  position: absolute;
+  top: 30vh;
+}
+
+.tagLine {
+  position: absolute;
+  top: 48vh;
+}
+
+.particles {
+  height: 100%;
+  width: 100%;
 }
 
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: absolute;
+  top: 60vh;
 }
 
 .features {
@@ -34,4 +49,16 @@
 .featureImage {
   height: 200px;
   width: 200px;
+}
+
+@media screen and (min-width: 549px) {
+  .title {
+    top: 35vh;
+  }
+  .tagLine {
+    top: 45vh;
+  }
+  .buttons {
+    top: 56vh;
+  }
 }
